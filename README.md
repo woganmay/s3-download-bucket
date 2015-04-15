@@ -3,7 +3,14 @@ Simple NodeJS script to download Amazon S3 buckets
 
 # Setup
 
-Install the node modules:
+Clone the project:
+
+```
+git clone git@github.com:woganmay/s3-download-bucket.git
+cd s3-download-bucket/
+```
+
+Install the required node modules:
 
 ```
 npm install aws-sdk minimist
@@ -24,3 +31,7 @@ node download.js --bucket=BUCKETNAME
 ```
 
 If all goes well, it will create a folder named after the bucket, with all the files downloaded into it.
+
+# License
+
+MIT
