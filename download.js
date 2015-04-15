@@ -6,7 +6,7 @@
  *       aws_access_key_id = __________
  *       aws_secret_access_key = _____________
  *
- * @author Wogan May <wmay@acceleration.biz>
+ * @author Wogan May <wogan.may@gmail.com>
  */
 var argv = require('minimist')(process.argv.slice(2));
 var AWS = require('aws-sdk');
@@ -55,8 +55,6 @@ s3.listObjects({ Bucket: argv.bucket }, function(err, data) {
         }
 
       });
-
-
 
     });
 
